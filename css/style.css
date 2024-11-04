@@ -1,0 +1,341 @@
+:root {
+  --bg-header-overly: hsla(0, 0%, 0%, 0.5);
+  --bg-color: rgba(0, 0, 0, 0.5);
+  --bg-card:rgba(52, 52, 52, 0.8);
+  --bg-footer:#1c1c1c;
+  --color-main: #fff;
+  --color-main-1: #000;
+  --color-serv:#f5f5f5;
+  --color-footer:#748182;
+  --h6-font: 0.9rem;
+  --span-font: 10px;
+  --border-color: #0000007c;
+  --font-main: "Poppins", serif;
+}
+
+body {
+  font-family: var(--font-main);
+}
+
+.font-mont{
+    font-family: "Montserrat", serif;
+}
+
+/**********************************HTML************************************/
+.head {
+  background-image: url(../imgs/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: var(--bg-header-overly);
+}
+
+.scl ul li {
+  width: 40px;
+  height: 40px;
+  background-color: var(--bg-color);
+}
+/**********************************Frist************************************/
+
+.hoverNav {
+  position: relative;
+}
+
+.hoverNav::before {
+  content: "";
+  border-bottom: 2px solid var(--color-main);
+  width: 0%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.active::before {
+  content: "";
+  border-bottom: 2px solid var(--color-main-1);
+  width: 100%;
+}
+/**********************************Nav & Navtabs************************************/
+#about .inner figure::before {
+  content: "";
+  position: absolute;
+  background-image: url(../imgs/dots.png);
+  left: 0;
+  bottom: 0;
+  width: 80%;
+  height: 80%;
+  z-index: -1;
+  transform: translate(-5%, 10%);
+  -webkit-transform: translate(-5%, 10%);
+  -moz-transform: translate(-5%, 10%);
+  -ms-transform: translate(-5%, 10%);
+  -o-transform: translate(-5%, 10%);
+}
+
+.progress-bar h6 {
+  font-size: var(--h6-font);
+}
+
+.progress-bar span {
+  font-size: var(--span-font);
+  transform: translateX(-90%);
+  -webkit-transform: translateX(-90%);
+  -moz-transform: translateX(-90%);
+  -ms-transform: translateX(-90%);
+  -o-transform: translateX(-90%);
+}
+
+.btn-about a {
+  background-color: var(--color-main-1);
+  padding: 8px 12px;
+  text-decoration: none;
+  color: var(--color-main);
+  border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  -moz-border-radius: 8px 8px 8px 8px;
+  -ms-border-radius: 8px 8px 8px 8px;
+  -o-border-radius: 8px 8px 8px 8px;
+  transition: all 0.7s;
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  -ms-transition: all 0.7s;
+  -o-transition: all 0.7s;
+  border: var(--border-color) 1px solid;
+}
+
+.btn-about a:hover {
+  color: var(--color-main-1);
+  background-color: var(--color-main);
+}
+
+.btn-about .CM {
+  background-color: var(--color-main);
+  color: var(--color-main-1);
+  padding: 8px 12px;
+  border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  -moz-border-radius: 8px 8px 8px 8px;
+  -ms-border-radius: 8px 8px 8px 8px;
+  -o-border-radius: 8px 8px 8px 8px;
+}
+
+.btn-about .CM:hover {
+  color: var(--color-main);
+  background-color: var(--color-main-1);
+}
+
+.UI {
+  letter-spacing: 4px;
+}
+/**********************************About************************************/
+.title h2::after {
+  content: "";
+  background-image: url(../imgs/dots.png);
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(90%);
+  -webkit-transform: translateY(90%);
+  -moz-transform: translateY(90%);
+  -ms-transform: translateY(90%);
+  -o-transform: translateY(90%);
+}
+
+.icn-serv {
+  background-color: var(--color-serv);
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+}
+
+#serv .inner:hover .icn-serv {
+  background-color: var(--color-main-1);
+  color: var(--color-main);
+}
+/**********************************Services************************************/
+.layer {
+  position: absolute;
+  background-color: #fff;
+  top: 8px;
+  bottom: -10px;
+  left: 8px;
+  right: 8px;
+  opacity: 0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+#work .inner:hover .layer {
+  top: 8px;
+  bottom: 8px;
+  left: 8px;
+  right: 8px;
+  opacity: 0.9;
+}
+
+.icn-1 {
+  width: 30px;
+  height: 30px;
+  background-color: var(--color-main-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-main);
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+/**********************************Portfolio************************************/
+#client .inner figure {
+  width: 5%;
+}
+
+#client .btn-carousel {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+/**********************************Clients************************************/
+
+.card {
+  background-color:var(--bg-card) ;
+}
+
+.layer-2 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background-color: var(--color-serv);
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  scale: 0;
+  opacity: 0;
+}
+
+figure:hover .layer-2 {
+  transform: rotateY(360deg);
+  -webkit-transform: rotateY(360deg);
+  -moz-transform: rotateY(360deg);
+  -ms-transform: rotateY(360deg);
+  -o-transform: rotateY(360deg);
+  scale: 1;
+  opacity: 0.9;
+}
+
+figure img {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+#team figure:hover img {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.icn-layer > div {
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-main-1);
+  border-color: var(--color-main) 1px solid;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-main);
+}
+
+.icn-layer > div:hover {
+  background-color: var(--color-main);
+  color: var(--color-main-1);
+  border: var(--color-main-1) 1px solid;
+}
+/**********************************Our Team************************************/
+
+#contact .inner:hover .icn-serv {
+  background: var(--color-main-1);
+  color: var(--color-main);
+}
+
+#contact .row .form-control {
+  border: none;
+  box-shadow: none;
+}
+
+#contact .row .form-control:focus {
+  border: 2px solid var(--color-main-1);
+  box-shadow: none;
+}
+
+#contact button {
+  padding: 0.8rem 2rem;
+  border: 1px solid var(--color-main-1);
+  background-color: var(--color-main-1);
+  color: var(--color-main);
+  border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  -moz-border-radius: 8px 8px 8px 8px;
+  -ms-border-radius: 8px 8px 8px 8px;
+  -o-border-radius: 8px 8px 8px 8px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+#contact button:hover {
+  background-color: var(--color-main);
+  color: var(--color-main-1);
+}
+/**********************************Contact************************************/
+footer {
+  background-color: var(--bg-footer);
+  color:var(--color-footer) ;
+}
+/**********************************Last************************************/

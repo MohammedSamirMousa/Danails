@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!--************************google font**************************************-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!--************************google font**************************************-->
+  <link rel="stylesheet" href="./css/all.min.css" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#nav-scroll" data-bs-offset="56">
+
+  <!--*********************************************************Frist section*********************************************************-->
+  <header class="head vh-100 d-flex justify-content-center align-items-center" id="home">
+    <div class="txt-head text-center text-white">
+      <h1 class="display-3 fw-bolder">Hello</h1>
+      <p class="fw-bloder display-4">
+        <span class="font-mont fw-lighter">I Am</span> <span id="element" class="fw-bolder"></span>
+      </p>
+      <div class="scl">
+        <ul class="list-unstyled d-flex flex-wrap flex-row justify-content-center gap-3">
+          <li class="d-flex justify-content-center align-items-center rounded-circle">
+            <a href="#" class="text-white"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li class="d-flex justify-content-center align-items-center rounded-circle">
+            <a href="#" class="text-white"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li class="d-flex justify-content-center align-items-center rounded-circle">
+            <a href="#" class="text-white"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li class="d-flex justify-content-center align-items-center rounded-circle">
+            <a href="#" class="text-white"><i class="fa-brands fa-linkedin"></i></a>
+          </li>
+          <li class="d-flex justify-content-center align-items-center rounded-circle">
+            <a href="#" class="text-white"><i class="fa-brands fa-behance"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!--*********************************************************Frist section*********************************************************-->
+  <nav id="nav-scroll" class="navbar navbar-expand-lg position-fixed fixed-top bg-white">
+    <div class="container">
+      <a class="navbar-brand text-black fs-3 fw-bold font-mont" href="#">Danials</a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span>
+          <i class="fa fa-navicon text-black fs-3"></i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+          <li class="nav-item">
+            <a class="nav-link text-black active fw-medium fs-6 hoverNav home" aria-current="page"
+              href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black fw-medium fs-6 hoverNav" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black fw-medium hoverNav fs-6" href="#serv">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black fw-medium hoverNav fs-6" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black fw-medium hoverNav fs-6" href="#client">Client</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black fw-medium hoverNav fs-6" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black fw-medium hoverNav fs-6" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--*********************************************************Hero section*********************************************************-->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="inner">
+        <div class="row justify-content-center align-items-center gy-4">
+          <div class="col-lg-5">
+            <div class="inner position-relative">
+              <figure>
+                <img src="./imgs/hero.jpg" class="w-100" alt="" />
+              </figure>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <article>
+              <h3 class="fw-bolder display-6">About Me.</h3>
+              <p class="text-muted UI fw-light">
+                UI / UX Designer & Web Developer
+              </p>
+              <p class="text-muted">
+                I am <span class="fw-bolder">Jerry Daniels</span> Lorem Ipsum
+                is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever
+                It has survived not only five centuries, but also the leap
+                into electronic but also the leap into electronic typesetting,
+                remaining essentially unchanged. It was popularised in the
+                1960s with the release of Letraset sheets containing
+              </p>
+            </article>
+            <div class="progress-about">
+              <div class="inner py-3">
+                <div class="progress position-relative" role="progressbar" aria-label="Success example"
+                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 25px">
+                  <div class="progress-bar bg-black d-flex justify-content-center align-items-center"
+                    style="width: 95%">
+                    <h6 class="position-absolute start-0 fs px-3 m-0">
+                      Web Design
+                    </h6>
+                    <span class="position-absolute end-0 px-2 fs-6">95%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="inner py-3">
+                <div class="progress position-relative" role="progressbar" aria-label="Success example"
+                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 25px">
+                  <div class="progress-bar bg-black d-flex justify-content-center align-items-center"
+                    style="width: 80%">
+                    <h6 class="position-absolute start-0 fs px-3 m-0">
+                      Branding
+                    </h6>
+                    <span class="position-absolute end-0 px-5 fs-6">80%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="inner py-3">
+                <div class="progress position-relative" role="progressbar" aria-label="Success example"
+                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 25px">
+                  <div class="progress-bar bg-black d-flex justify-content-center align-items-center"
+                    style="width: 90%">
+                    <h6 class="position-absolute start-0 fs px-3 m-0">
+                      Development
+                    </h6>
+                    <span class="position-absolute end-0 px-4 fs-6">90%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="btn-about d-flex flex flex-wrap gap-2 py-2">
+              <div>
+                <a href="#">Download C.V</a>
+              </div>
+              <div>
+                <a href="#" class="CM">Contact Me</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--*********************************************************Frist section*********************************************************-->
+  <!--*********************************************************Services section*********************************************************-->
+  <section id="serv" class="bg-body-tertiary py-5">
+    <div class="container">
+      <div class="serv-info">
+        <div class="inner d-flex justify-content-center py-5">
+          <div class="title position-relative overflow-hidden z-1">
+            <h2 class="fw-bolder display-4">Services</h2>
+          </div>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-4">
+            <div class="inner rounded d-flex flex-wrap justify-content-center bg-white shadow py-5">
+              <div class="icn-serv">
+                <i class="fa fa-laptop fa-2xl"></i>
+              </div>
+              <div class="serv-body text-center">
+                <h4 class="fw-bold">Web Design</h4>
+                <p class="text-muted">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="inner rounded d-flex flex-wrap justify-content-center bg-white shadow py-5">
+              <div class="icn-serv">
+                <i class="fa fa-bullhorn fa-2xl"></i>
+              </div>
+              <div class="serv-body text-center">
+                <h4 class="fw-bold">Web Design</h4>
+                <p class="text-muted">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="inner rounded d-flex flex-wrap justify-content-center bg-white shadow py-5">
+              <div class="icn-serv">
+                <i class="fa fa-umbrella fa-2xl"></i>
+              </div>
+              <div class="serv-body text-center">
+                <h4 class="fw-bold">Web Design</h4>
+                <p class="text-muted">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="inner rounded d-flex flex-wrap justify-content-center bg-white shadow py-5">
+              <div class="icn-serv">
+                <i class="fa-regular fa-gem fa-2xl"></i>
+              </div>
+              <div class="serv-body text-center">
+                <h4 class="fw-bold">Web Design</h4>
+                <p class="text-muted">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="inner rounded d-flex flex-wrap justify-content-center bg-white shadow py-5">
+              <div class="icn-serv">
+                <i class="fa fa-television fa-2xl"></i>
+              </div>
+              <div class="serv-body text-center">
+                <h4 class="fw-bold">Web Design</h4>
+                <p class="text-muted">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="inner rounded d-flex flex-wrap justify-content-center bg-white shadow py-5">
+              <div class="icn-serv">
+                <i class="fa fa-camera fa-2xl"></i>
+              </div>
+              <div class="serv-body text-center">
+                <h4 class="fw-bold">Web Design</h4>
+                <p class="text-muted">
+                  Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                  the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--*********************************************************Services section*********************************************************-->
+  <section id="work" class="py-5">
+    <div class="container">
+      <div class="work-info">
+        <div class="inner d-flex justify-content-center py-5">
+          <div class="title position-relative overflow-hidden">
+            <h2 class="fw-bolder display-4">Portfolio</h2>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content" id="myTabContent">
+        <ul class="nav nav-tabs text-center justify-content-center py-3" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="bg-transparent border-0 active hoverNav fs-5" id="home-tab" data-bs-toggle="tab"
+              data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+              aria-selected="true">
+              <span>ALL</span>
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="bg-transparent border-0 fs-5 hoverNav" id="profile-tab" data-bs-toggle="tab"
+              data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane"
+              aria-selected="false">
+              <span>DEV</span>
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="bg-transparent border-0 fs-5 hoverNav" id="contact-tab" data-bs-toggle="tab"
+              data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane"
+              aria-selected="false">
+              <span>WEB</span>
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="bg-transparent border-0 fs-5 hoverNav" id="contact-tab4" data-bs-toggle="tab"
+              data-bs-target="#contact-tab-pane4" type="button" role="tab" aria-controls="contact-tab-pane4"
+              aria-selected="false">
+              <span>DESIGN</span>
+            </button>
+          </li>
+        </ul>
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+          tabindex="0">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6">
+              <div class="inner">
+                <figure class="position-relative">
+                  <img src="./imgs/portfolio/1.jpg" class="w-100" alt="work1" />
+                  <div class="layer">
+                    <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                      <h6>Web Design</h6>
+                      <div class="layer-icn d-flex flex-row gap-2">
+                        <div class="icn-1">
+                          <i class="fa fa-chain-broken"></i>
+                        </div>
+                        <div class="icn-1">
+                          <i class="fa fa-search-plus" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="inner">
+                <figure class="position-relative">
+                  <img src="./imgs/portfolio/2.jpg" class="w-100" alt="work2" />
+                  <div class="layer">
+                    <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                      <h6>Web Design</h6>
+                      <div class="layer-icn d-flex flex-row gap-2">
+                        <div class="icn-1">
+                          <i class="fa fa-chain-broken"></i>
+                        </div>
+                        <div class="icn-1">
+                          <i class="fa fa-search-plus" data-bs-toggle="modal" data-bs-target="#Modal"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="inner">
+                <figure class="position-relative">
+                  <img src="./imgs/portfolio/3.jpg" class="w-100" alt="work3" />
+                  <div class="layer">
+                    <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                      <h6>Web Design</h6>
+                      <div class="layer-icn d-flex flex-row gap-2">
+                        <div class="icn-1">
+                          <i class="fa fa-chain-broken"></i>
+                        </div>
+                        <div class="icn-1">
+                          <i class="fa fa-search-plus" data-bs-toggle="modal" data-bs-target="#Modal-1"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="inner">
+                <figure class="position-relative">
+                  <img src="./imgs/portfolio/4.jpg" class="w-100" alt="work4" />
+                  <div class="layer">
+                    <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                      <h6>Web Design</h6>
+                      <div class="layer-icn d-flex flex-row gap-2">
+                        <div class="icn-1">
+                          <i class="fa fa-chain-broken"></i>
+                        </div>
+                        <div class="icn-1">
+                          <i class="fa fa-search-plus" data-bs-toggle="modal" data-bs-target="#Modal-2"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="inner">
+                <figure class="position-relative">
+                  <img src="./imgs/portfolio/5.jpg" class="w-100" alt="work5" />
+                  <div class="layer">
+                    <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                      <h6>Web Design</h6>
+                      <div class="layer-icn d-flex flex-row gap-2">
+                        <div class="icn-1">
+                          <i class="fa fa-chain-broken"></i>
+                        </div>
+                        <div class="icn-1">
+                          <i class="fa fa-search-plus" data-bs-toggle="modal" data-bs-target="#Modal-3"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="inner">
+                <figure class="position-relative">
+                  <img src="./imgs/portfolio/6.jpg" class="w-100" alt="work6" />
+                  <div class="layer">
+                    <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                      <h6>Web Design</h6>
+                      <div class="layer-icn d-flex flex-row gap-2">
+                        <div class="icn-1">
+                          <i class="fa fa-chain-broken"></i>
+                        </div>
+                        <div class="icn-1">
+                          <i class="fa fa-search-plus" data-bs-toggle="modal" data-bs-target="#Modal-4"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6">
+              <div class="inner">
+                <figure class="position-relative">
+                  <img src="./imgs/portfolio/4.jpg" class="w-100" alt="work4" />
+                  <div class="layer">
+                    <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                      <h6>Web Design</h6>
+                      <div class="layer-icn d-flex flex-row gap-2">
+                        <div class="icn-1">
+                          <i class="fa fa-chain-broken"></i>
+                        </div>
+                        <div class="icn-1">
+                          <i class="fa fa-search-plus" data-bs-toggle="modal" data-bs-target="#Modal-2"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="inner">
+                <figure class="position-relative">
+                  <img src="./imgs/portfolio/6.jpg" class="w-100" alt="work6" />
+                  <div class="layer">
+                    <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                      <h6>Web Design</h6>
+                      <div class="layer-icn d-flex flex-row gap-2">
+                        <div class="icn-1">
+                          <i class="fa fa-chain-broken"></i>
+                        </div>
+                        <div class="icn-1">
+                          <i class="fa fa-search-plus" data-bs-toggle="modal" data-bs-target="#Modal-4"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6">
+              <div class="inner">
+                <figure class="position-relative">
+                  <img src="./imgs/portfolio/2.jpg" class="w-100" alt="work2" />
+                  <div class="layer">
+                    <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                      <h6>Web Design</h6>
+                      <div class="layer-icn d-flex flex-row gap-2">
+                        <div class="icn-1">
+                          <i class="fa fa-chain-broken"></i>
+                        </div>
+                        <div class="icn-1">
+                          <i class="fa fa-search-plus" data-bs-toggle="modal" data-bs-target="#Modal"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="inner">
+                <figure class="position-relative">
+                  <img src="./imgs/portfolio/5.jpg" class="w-100" alt="work5" />
+                  <div class="layer">
+                    <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                      <h6>Web Design</h6>
+                      <div class="layer-icn d-flex flex-row gap-2">
+                        <div class="icn-1">
+                          <i class="fa fa-chain-broken"></i>
+                        </div>
+                        <div class="icn-1">
+                          <i class="fa fa-search-plus" data-bs-toggle="modal" data-bs-target="#Modal-3"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="contact-tab-pane4" role="tabpanel" aria-labelledby="contact-tab4" tabindex="0">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6">
+              <div class="inner">
+                <figure class="position-relative">
+                  <img src="./imgs/portfolio/1.jpg" class="w-100" alt="work1" />
+                  <div class="layer">
+                    <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                      <h6>Web Design</h6>
+                      <div class="layer-icn d-flex flex-row gap-2">
+                        <div class="icn-1">
+                          <i class="fa fa-chain-broken"></i>
+                        </div>
+                        <div class="icn-1">
+                          <i class="fa fa-search-plus" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="inner">
+                <figure class="position-relative">
+                  <img src="./imgs/portfolio/3.jpg" class="w-100" alt="work3" />
+                  <div class="layer">
+                    <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                      <h6>Web Design</h6>
+                      <div class="layer-icn d-flex flex-row gap-2">
+                        <div class="icn-1">
+                          <i class="fa fa-chain-broken"></i>
+                        </div>
+                        <div class="icn-1">
+                          <i class="fa fa-search-plus" data-bs-toggle="modal" data-bs-target="#Modal-1"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="inner">
+                <figure class="position-relative">
+                  <img src="./imgs/portfolio/5.jpg" class="w-100" alt="work5" />
+                  <div class="layer">
+                    <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                      <h6>Web Design</h6>
+                      <div class="layer-icn d-flex flex-row gap-2">
+                        <div class="icn-1">
+                          <i class="fa fa-chain-broken"></i>
+                        </div>
+                        <div class="icn-1">
+                          <i class="fa fa-search-plus" data-bs-toggle="modal" data-bs-target="#Modal-3"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--*********************************************************Services section*********************************************************-->
+  <!--*********************************************************Clients section*********************************************************-->
+  <section class="client py-5 bg-body-tertiary" id="client">
+    <div class="container ">
+      <div class="client-info">
+        <div class="inner d-flex justify-content-center py-5">
+          <div class="title position-relative overflow-hidden z-1">
+            <h2 class="fw-bolder display-4">Testimonials.</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0"
+                  class="active btn-carousel bg-black" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+                  class="btn-carousel bg-black" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+                  class="btn-carousel bg-black" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item">
+                  <div class="inner">
+                    <figure class="m-auto">
+                      <img src="./imgs/1_New1.jpg" class="w-100 rounded-circle" alt="" />
+                    </figure>
+                    <figcaption class="text-center py-5">
+                      <p class="text-muted">Lorem Ipsum has been the industry's standard dummy text
+                        ever since the when an unknown printer took a galley of
+                        type and scrambled it to make a type specimen book.</p>
+                      <h6 class="fw-medium fs-5">
+                        Alex Smith
+                      </h6>
+                      <span class="text-muted">Envarto Customer</span>
+                    </figcaption>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="inner">
+                    <figure class="m-auto">
+                      <img src="./imgs/1_New1.jpg" class="w-100 rounded-circle" alt="" />
+                    </figure>
+                    <figcaption class="text-center py-5">
+                      <p class="text-muted">Lorem Ipsum has been the industry's standard dummy text
+                        ever since the when an unknown printer took a galley of
+                        type and scrambled it to make a type specimen book.</p>
+                      <h6 class="fw-medium fs-5">
+                        Alex Smith
+                      </h6>
+                      <span class="text-muted">Envarto Customer</span>
+                    </figcaption>
+                  </div>
+                </div>
+                <div class="carousel-item active">
+                  <div class="inner">
+                    <figure class="m-auto">
+                      <img src="./imgs/1_New1.jpg" class="w-100 rounded-circle" alt="" />
+                    </figure>
+                    <figcaption class="text-center py-5">
+                      <p class="text-muted">Lorem Ipsum has been the industry's standard dummy text
+                        ever since the when an unknown printer took a galley of
+                        type and scrambled it to make a type specimen book.</p>
+                      <h6 class="fw-medium fs-5">
+                        Alex Smith
+                      </h6>
+                      <span class="text-muted">Envarto Customer</span>
+                    </figcaption>
+                  </div>
+                </div>
+              </div>
+              <button" class=" visually-hidden" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                </button>
+                <button class=" visually-hidden" type="button" data-bs-target="#carouselExampleAutoplaying"
+                  data-bs-slide="next">
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--*********************************************************Clients section*********************************************************-->
+  <!--*********************************************************dashboard section*********************************************************-->
+  <section class="dashboard py-5">
+    <div class="container">
+      <div class="dash-info">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="inner text-center">
+              <div class="icn-dash">
+                <i class="fa fa-users fs-1"></i>
+              </div>
+              <div class="body-dash">
+                <p class="py-2 m-0 fw-bolder fs-2">850</p>
+                <p class="text-muted">Happy Customer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="inner text-center">
+              <div class="icn-dash">
+                <i class="fa fa-thumbs-up fs-1"></i>
+              </div>
+              <div class="body-dash">
+                <p class="py-2 m-0 fw-bolder fs-2">230</p>
+                <p class="text-muted">Complate Project</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="inner text-center">
+              <div class="icn-dash">
+                <i class="fa fa-bullhorn fs-1"></i>
+              </div>
+              <div class="body-dash">
+                <p class="py-2 m-0 fw-bolder fs-2">9450</p>
+                <p class="text-muted">Lines Of Code</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="inner text-center">
+              <div class="icn-dash">
+                <i class="fa fa-cloud-download fs-1"></i>
+              </div>
+              <div class="body-dash">
+                <p class="py-2 m-0 fw-bolder fs-2">720</p>
+                <p class="text-muted">Files Download</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--*********************************************************dashboard section*********************************************************-->
+  <!--*********************************************************Our Team section*********************************************************-->
+  <section class="ourTeam py-5" id="team">
+    <div class="container">
+      <div class="team-info">
+        <div class="inner d-flex justify-content-center py-5">
+          <div class="title position-relative overflow-hidden">
+            <h2 class="fw-bolder display-4">Our Team</h2>
+          </div>
+        </div>
+        <div class="row gy-4 py-3">
+          <div class="col-md-6 col-lg-4">
+            <div class="inner">
+              <div class="card border-0">
+                <figure class="position-relative overflow-hidden">
+                  <img src="./imgs/1.jpg" class="w-100 d-block" alt="...">
+                  <div class="layer-2">
+                    <div class="icn-layer d-flex justify-content-center align-items-center h-100 gap-3">
+                      <div><i class="fa-brands fa-lg fa-facebook-f"></i></div>
+                      <div><i class="fa-brands fa-lg fa-twitter"></i></div>
+                      <div><i class="fa-brands fa-lg fa-pinterest"></i></div>
+                      <div><i class="fa-brands fa-lg fa-linkedin"></i></div>
+                    </div>
+                  </div>
+                </figure>
+                <figcaption class="card-body text-center text-white">
+                  <p class="card-text fs-3 fw-medium">John Doe</p>
+                  <h3 class="fs-2 fw-bold">Front-End Developer</h3>
+                </figcaption>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="inner">
+              <div class="card border-0">
+                <figure class="position-relative overflow-hidden">
+                  <img src="./imgs/2.jpg" class="w-100 d-block" alt="...">
+                  <div class="layer-2">
+                    <div class="icn-layer d-flex justify-content-center align-items-center h-100 gap-3">
+                      <div><i class="fa-brands fa-lg fa-facebook-f"></i></div>
+                      <div><i class="fa-brands fa-lg fa-twitter"></i></div>
+                      <div><i class="fa-brands fa-lg fa-pinterest"></i></div>
+                      <div><i class="fa-brands fa-lg fa-linkedin"></i></div>
+                    </div>
+                  </div>
+                </figure>
+                <figcaption class="card-body text-center text-white">
+                  <p class="card-text fs-3 fw-medium">Dave Wood</p>
+                  <h3 class="fs-2 fw-bold">Back-End Developer</h3>
+                </figcaption>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="inner">
+              <div class="card border-0">
+                <figure class="position-relative overflow-hidden">
+                  <img src="./imgs/1.jpg" class="w-100 d-block" alt="...">
+                  <div class="layer-2">
+                    <div class="icn-layer d-flex justify-content-center align-items-center h-100 gap-3">
+                      <div><i class="fa-brands fa-lg fa-facebook-f"></i></div>
+                      <div><i class="fa-brands fa-lg fa-twitter"></i></div>
+                      <div><i class="fa-brands fa-lg fa-pinterest"></i></div>
+                      <div><i class="fa-brands fa-lg fa-linkedin"></i></div>
+                    </div>
+                  </div>
+                </figure>
+                <figcaption class="card-body text-center text-white">
+                  <p class="card-text fs-3 fw-medium">Claire Chedd</p>
+                  <h3 class="fs-2 fw-bold">Back-End Developer</h3>
+                </figcaption>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--*********************************************************Our Team section*********************************************************-->
+  <!--*********************************************************Contact Us section*********************************************************-->
+  <section class="contact py-5" id="contact">
+    <div class="container">
+      <div class="contact-info">
+        <div class="inner d-flex justify-content-center py-5">
+          <div class="title position-relative overflow-hidden">
+            <h2 class="fw-bolder display-4">Contact</h2>
+          </div>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-4">
+            <div class="inner d-flex flex-wrap flex-column align-items-center justify-content-center py-5">
+              <div class="icn-serv">
+                <i class="fa fa-location-arrow fa-2xl"></i>
+              </div>
+              <div class="serv-body text-center">
+                <h5 class="fw-bold">Address</h5>
+                <p class="text-muted">
+                  6834 Hollywood Blvd - Los Angeles CA
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="inner d-flex flex-wrap flex-column align-items-center justify-content-center py-5">
+              <div class="icn-serv">
+                <i class="fa fa-envelope fa-2xl"></i>
+              </div>
+              <div class="serv-body text-center">
+                <h4 class="fw-bold">Email</h4>
+                <p class="text-muted">
+                  Support@website.com
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="inner d-flex flex-wrap flex-column align-items-center justify-content-cente py-5">
+              <div class="icn-serv">
+                <i class="fa fa-phone fa-2xl"></i>
+              </div>
+              <div class="serv-body text-center">
+                <h4 class="fw-bold">Phone</h4>
+                <p class="text-muted">+20 010 2517 8918</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form action="" method="post" class="row gy-4">
+          <div class="col-lg-6"><input type="text" name="yourName" class="w-100 form-control rounded bg-body-tertiary"
+              placeholder="Name" required></div>
+          <div class="col-lg-6"><input type="email" class="w-100 form-control rounded bg-body-tertiary" name="yourEmail"
+              placeholder="Email" required></div>
+          <div class="col-12"><textarea name="yourMessage" rows="7" class="w-100 form-control rounded bg-body-tertiary"
+              placeholder="Your Message"></textarea></div>
+          <div class="col-12"><button type="submit" name="submit">Submit</button></div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!--*********************************************************Contact Us section*********************************************************-->
+  <!--*********************************************************Last section*********************************************************-->
+  <footer class="py-3">
+    <div class="container text-center">
+      <p class="m-0">Copy Right 2018 © By Daniels All Rights Reserved</p>
+    </div>
+  </footer>
+  <!--*********************************************************Last section*********************************************************-->
+  <!-- *******modal******* -->
+  <div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-transparent border-0 position-relative">
+          <div class="header position-absolute end-0 bottom-100">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="body">
+            <img src="./imgs/portfolio/1.jpg" alt="work-img" class="w-100" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-transparent border-0 position-relative">
+          <div class="header position-absolute end-0 bottom-100">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="body">
+            <img src="./imgs/portfolio/2.jpg" alt="work-img" class="w-100" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="Modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-transparent border-0 position-relative">
+          <div class="header position-absolute end-0 bottom-100">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="body">
+            <img src="./imgs/portfolio/3.jpg" alt="work-img" class="w-100" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="Modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-transparent border-0 position-relative">
+          <div class="header position-absolute end-0 bottom-100">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="body">
+            <img src="./imgs/portfolio/4.jpg" alt="work-img" class="w-100" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="Modal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-transparent border-0 position-relative">
+          <div class="header position-absolute end-0 bottom-100">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="body">
+            <img src="./imgs/portfolio/5.jpg" alt="work-img" class="w-100" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="Modal-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-transparent border-0 position-relative">
+          <div class="header position-absolute end-0 bottom-100">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="body">
+            <img src="./imgs/portfolio/6.jpg" alt="work-img" class="w-100" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- *******modal******* -->
+
+  <!-- ********************************js******************************* -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed("#element", {
+      strings: ["Designer", "Photographer", "Developer", "Freelancer"],
+      typeSpeed: 100,
+      backspeed: 100,
+      loop: true,
+    });
+  </script>
+  <script src="./js/all.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
